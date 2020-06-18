@@ -19,7 +19,7 @@ namespace TestProject
         }
 
         [TestMethod]
-        public void TestMethod33()
+        public void TestMethod3()
         {
             //System.Threading.Thread.Sleep(10*1000);
         }
