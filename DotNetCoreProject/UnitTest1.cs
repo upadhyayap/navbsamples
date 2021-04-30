@@ -49,6 +49,7 @@ namespace DotNetCoreProject
         [DataRow(2, 3, 4)]
         public void TestMehtod4(int a, int b, int c)
         {
+            TestContext.WriteLine("This is a dd test");
             Assert.AreEqual(a + b, c);  
         }
     }
