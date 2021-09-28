@@ -20,8 +20,11 @@ namespace TestProject2
         }
 
         [TestMethod]
-        public void TestProjectPassTestMethod1()
+        [DataRow(1,2)]
+        [DataRow(3,4)]
+        public void TestProjectPassTestMethod1(int num1, int num2)
         {
+            Assert.AreEqual(num1+num2, 10);
         }
 
         [TestMethod]
