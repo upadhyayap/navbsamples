@@ -1,0 +1,15 @@
+<?xml version ="1.0" encoding="UTF-8"?>
+<TestRun>
+  <Results>
+    <UnitTestResult testId="fd1a9d66-d059-cd84-23d7-f655dce255f5" testName="MassivePileOfTests.XunitTestSuite8.Test1(a: 2)" outcome="Passed" />
+    <UnitTestResult testId="dd1a9d66-d059-cd84-23d7-fi95dce2g5f5" testName="MassivePileOfTests.XunitTestSuite8.Test1(a: 3)" outcome="Passed" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest id="fd1a9d66-d059-cd84-23d7-f655dce255f5">
+      <TestMethod className="MassivePileOfTests.XunitTestSuite8" name="Test1" adapterTypeName="executor://xunit/VsTestRunner2/net" />
+    </UnitTest>
+    <UnitTest id="dd1a9d66-d059-cd84-23d7-fi95dce2g5f5">
+      <TestMethod className="MassivePileOfTests.XunitTestSuite8" name="Test1" adapterTypeName="executor://xunit/VsTestRunner2/net" />
+    </UnitTest>
+  </TestDefinitions>
+</TestRun>
