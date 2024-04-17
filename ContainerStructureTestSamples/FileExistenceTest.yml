@@ -1,0 +1,10 @@
+schemaVersion: '2.0.0'
+
+fileExistenceTests:
+- name: 'Root'
+  path: '/'
+  shouldExist: true
+
+- name: 'App File Exist'
+  path: '/app/app.py'
+  shouldExist: true

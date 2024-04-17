@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite tests="1" skipped="0" errors="0" failures="0" id="0" name="reliability.common.test" time="0.00031">
+<testcase assertions="0" classname="ReliabilityCommonSampleTestSuite" name="Sample" time="0.00031">
+<system-out><![CDATA[MESSAGE:
+- file   : boost.test framework
+- line   : 212
+- message: Test case ReliabilityCommonSampleTestSuite/Sample did not check any assertions
+
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <test-run id="2" testcasecount="8" result="Passed" total="8"
+    passed="8" failed="0"
+    asserts="8" engine-version="Lighthouse" start-time="Thu Dec 12 2019 03:58:19 GMT+0000 (Coordinated Universal Time)" end-time="Thu Dec 12 2019 03:59:02 GMT+0000 (Coordinated Universal Time)" duration="42.99">
+      <test-suite type="Assembly" executed="True" name="LoginScreen" result="Passed" time="12086">
+        <environment machine-name="DAR"></environment>
+        <test-case name="LoginScreen: Performance" executed="True" result="Passed" time="1588.5">
+          <output>Performance scored 44%</output>
+        </test-case>
+<test-case name="LoginScreen: Accessibility" executed="True" result="Passed" time="1588.5">
+          <output>Accessibility scored 64%</output>
+        </test-case>
+<test-case name="LoginScreen: Best Practices" executed="True" result="Passed" time="1588.5">
+          <output>Best Practices scored 85%</output>
+        </test-case>
+<test-case name="LoginScreen: SEO" executed="True" result="Passed" time="1588.5">
+          <output>SEO scored 67%</output>
+        </test-case>
+        <attachments>
+          <attachment><filePath>/home/vsts/work/1/s/lighthouse/ReportHTML-LoginScreen.html</filePath><description>ReportHTML-LoginScreen.html</description></attachment>
+<attachment><filePath>/home/vsts/work/1/s/lighthouse/ReportHTML-LoginScreen.json</filePath><description>ReportHTML-LoginScreen.json</description></attachment>
+<attachment><filePath>/home/vsts/work/1/s/lighthouse/ReportHTML-LoginScreen.txt</filePath><description>ReportHTML-LoginScreen.txt</description></attachment>
+        </attachments>
+      </test-suite>
+      <test-suite type="Assembly" executed="True" name="Dashboard" result="Passed" time="12086">
+        <environment machine-name="DAR"></environment>
+        <test-case name="Dashboard: Performance" executed="True" result="Passed" time="1588.5">
+          <output>Performance scored 39%</output>
+        </test-case>
+<test-case name="Dashboard: Accessibility" executed="True" result="Passed" time="1588.5">
+          <output>Accessibility scored 33%</output>
+        </test-case>
+<test-case name="Dashboard: Best Practices" executed="True" result="Passed" time="1588.5">
+          <output>Best Practices scored 77%</output>
+        </test-case>
+<test-case name="Dashboard: SEO" executed="True" result="Passed" time="1588.5">
+          <output>SEO scored 67%</output>
+        </test-case>
+        <attachments>
+          <attachment><filePath>/home/vsts/work/1/s/lighthouse/ReportHTML-Dashboard.html</filePath><description>ReportHTML-Dashboard.html</description></attachment>
+<attachment><filePath>/home/vsts/work/1/s/lighthouse/ReportHTML-Dashboard.json</filePath><description>ReportHTML-Dashboard.json</description></attachment>
+<attachment><filePath>/home/vsts/work/1/s/lighthouse/ReportHTML-Dashboard.txt</filePath><description>ReportHTML-Dashboard.txt</description></attachment>
+        </attachments>
+      </test-suite>
+    </test-run>

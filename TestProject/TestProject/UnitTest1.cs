@@ -23,5 +23,11 @@ namespace TestProject
         {
             //System.Threading.Thread.Sleep(10*1000);
         }
+        
+        [TestMethod]
+        public void TestMethod44()
+        {
+            //System.Threading.Thread.Sleep(10*1000);
+        }
     }
 }

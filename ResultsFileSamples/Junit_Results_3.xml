@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Aegis-TrzCompare" tests="12"  failures="0" time="271" >
+  <testsuite name="AegisART" tests="12" failures="0" hostname="KSUS01PART01" time="57" timestamp="2020-02-25T14:49:46.996-06:00">
+    <testcase name="Designing Job: M_Bracing" time="13" classname="AegisART">
+    </testcase>
+    <testcase name="Designing Job: M_EP_NOTES_INFO" time="14" classname="AegisART">
+    </testcase>
+    <testcase name="Designing Job: M_SCREW COUNT INFO" time="8" classname="AegisART">
+    </testcase>
+    <testcase name="Designing Job: BaseTest" time="7" classname="AegisART">
+    </testcase>
+    <testcase name="Designing Job: Basetest2" time="7" classname="AegisART">
+    </testcase>
+    <testcase name="Designing Job: TC0018" time="7" classname="AegisART">
+    </testcase>
+    <testcase name="Comparing Job: M_Bracing Passed: 2 Failed: 0" time="0" classname="AegisART">
+    </testcase>
+    <testcase name="Comparing Job: M_EP_NOTES_INFO Passed: 3 Failed: 0" time="0" classname="AegisART">
+    </testcase>
+    <testcase name="Comparing Job: M_SCREW COUNT INFO Passed: 2 Failed: 0" time="0" classname="AegisART">
+    </testcase>
+    <testcase name="Comparing Job: BaseTest Passed: 2 Failed: 0" time="0" classname="AegisART">
+    </testcase>
+    <testcase name="Comparing Job: Basetest2 Passed: 2 Failed: 0" time="0" classname="AegisART">
+    </testcase>
+    <testcase name="Comparing Job: TC0018 Passed: 1 Failed: 0" time="0" classname="AegisART">
+    </testcase>
+  </testsuite>
+</testsuites>

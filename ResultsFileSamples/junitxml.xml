@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+   <testsuite name="com.contoso.billingservice.ConsoleMessageRendererTest" errors="0" failures="1" skipped="0" tests="2" time="0.006" timestamp="2015-04-06T21:56:24">
+      <testsuite errors="0" failures="1" hostname="mghost" name="com.contoso.billingservice.ConsoleMessageRendererTest" skipped="0" tests="2" time="0.006" timestamp="2015-04-06T21:56:24">
+         <testcase classname="com.contoso.billingservice.ConsoleMessageRendererTest" name="testRenderNullMessage" testType="asdasdas" time="0.001" />
+         <testcase classname="com.contoso.billingservice.ConsoleMessageRendererTest" name="testRenderMessage" time="0.003">
+            <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError at com.contoso.billingservice.ConsoleMessageRendererTest.testRenderMessage(ConsoleMessageRendererTest.java:11)</failure>
+         </testcase>
+         <system-out><![CDATA[Hello World!]]></system-out>
+         <system-err />
+      </testsuite>
+   </testsuite>
+</testsuites>

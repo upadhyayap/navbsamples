@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+<testsuite name="FontResource" errors="0" tests="2" failures="0" time="0.050426" timestamp="2019-11-21T18:48:40">
+<testcase classname="FontResource.bahnschrift" time="0.025320"/>
+<testcase classname="FontResource.Sitka" time="0.017004"/>
+</testsuite>
+<testsuite name="FontFace" errors="0" tests="2" failures="0" time="0.843940" timestamp="2019-11-21T18:48:40">
+<testcase classname="FontFace.bahnschrift" time="0.205288"/><testcase classname="FontFace.Sitka" time="0.089352"/>
+</testsuite>
+<testsuite name="GlyphRun" errors="0" tests="2" failures="0" time="1.798656" timestamp="2019-11-21T18:48:42">
+<testcase classname="GlyphRun.bahnschrift" time="0.517418"/><testcase classname="GlyphRun.Sitka" time="0.422902"/>
+</testsuite>
+<testsuite name="FontSet" errors="0" tests="1" failures="0" time="0.151319" timestamp="2019-11-21T18:48:45">
+<testcase classname="FontSet" time="0.151319"/>
+</testsuite>
+<testsuite name="FontCollection" errors="0" tests="1" failures="0" time="124.298742" timestamp="2019-11-21T18:48:45">
+<testcase classname="FontCollection" time="124.298742"/>
+</testsuite>
+</testsuites>

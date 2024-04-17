@@ -1,0 +1,28 @@
+name: .NET Core
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup .NET Core
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 2.2.108
+    - name: Build with dotnet
+      run: dotnet build DotNetCoreProject/DotNetCoreProject.csproj
+    - name: Test with dotnet
+      run: dotnet test DotNetCoreProject/DotNetCoreProject.csproj
+      continue-on-error: true
+    - name: Container Structure Tests
+      uses: brpaz/structure-tests-action@v1.1.2
+      with:
+        # The Docker image to test
+        image: https://hub.docker.com/r/navb/hellodocker
+        # Path to the config file
+        configFile: ContainerStructureTestSamples/FileExistenceTest.yml
+      
